@@ -9,9 +9,9 @@ void setup() {
     Serial.begin(115200);
     SPI.begin();
     myWaveform1.begin();
-    myWaveform1.setWaveform(SINE, 640000); // Set waveform to sine in kHz
+    myWaveform1.setWaveform(SINE, 640000); // Set waveform to sine in Hz
     myWaveform2.begin();
-    myWaveform2.setWaveform(SINE, 1344000); // Set waveform to sine in kHz
+    myWaveform2.setWaveform(SINE, 1344000); // Set waveform to sine in Hz
 }
 
 void loop() {
