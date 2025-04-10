@@ -1,6 +1,6 @@
 # arduino_ad9833
 Two modules of AD9833 (DDS generator) working with Arduino Nano compatible board LGT8F328P (MiniEVB)
-in example sets 640kHz and 1.344 MHz output.
+in example sets 640kHz and 1.344 MHz output (sine form signal).
 
 - using SimpleAD9833 library by Will Hickmott
 - schematic (using SPI):
